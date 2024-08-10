@@ -9,6 +9,5 @@ add app
 
 chmod +x ~/start_webpage.sh
 
-crontab -e
-
-@reboot /home/pi/start_webpage.sh &
+nano ~/.bashrc
+~/start_webpage.sh &
